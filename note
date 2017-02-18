@@ -1,2 +1,2 @@
-#if [ "$(cat bin/serial.txt | wc -w)" == "0" ]; then  clear ; echo -e "\e[1m\e[96m\n\n\tAgar xoxo bisa bekerja, silakan ambil kode serial di grup \n\t\e[1m\e[92mhttps://www.facebook.com/groups/212202442586634/\e[0m \n\n\e[1m\e[96m\tTerimakasih\e[0m\n\n"; sleep 1000; else  clear; fi
-clear
+if [ "$(cat bin/serial.txt | wc -w)" == "0" ]; then  clear ; echo -e "\e[1m\e[96m\n\n\tAgar xoxo bisa bekerja, silakan ambil kode serial di grup \n\t\e[1m\e[92mhttps://www.facebook.com/groups/212202442586634/\e[0m \n\n\e[1m\e[96m\tTerimakasih\e[0m\n\n"; sleep 1000; else  clear; fi
+#clear
